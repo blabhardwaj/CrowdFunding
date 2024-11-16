@@ -4,12 +4,13 @@ version = "1.0.0"
 authors = []
 
 [addresses]
+crowdfunding = "0x682eb04d72070eea44d1f38f95c14b94c23d812486876f48fdab1387e3efc16e"
 
 [dev-addresses]
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-framework.git"
-rev = "mainnet"
+rev = "testnet"
 subdir = "aptos-framework"
 
 [dev-dependencies]
